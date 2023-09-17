@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+.ehsopHeader{
+    height: 100px;
+    position: relative;
+}
+
+.navbar{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: rgba(10,10,10,0.3);
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 600px){
+    .container{
+        display: grid;
+    }
+}
+
+.total{
+    text-align: center;
+}
+
+.span{
+    padding-left: 605px;
+}
+.price{
+    padding-left: 800px;
+    margin-top: -15px;
+}
+
+.quantity{
+    padding-left: 100px;
+    margin-top: -15px;
+}
+
+.item{
+    text-align: center;
+}
+
+button{
+    color: rgb(154, 154, 255);
+    border: none;
+    background-color: rgb(184, 213, 200);
+    cursor: pointer;
+}
